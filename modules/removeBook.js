@@ -6,13 +6,13 @@ const bookTitle = document.querySelector('#title');
 const bookAuthor = document.querySelector('#author');
 const form = document.querySelector('form');
 
-function removeOnClicked(button, book) {
+const removeOnClicked = (button, book) => {
   book = new Books(bookTitle.value, bookAuthor.value);
   this.title = button.parentElement.children[0].children[0].innerHTML;
   book.removeBook(this.title);
-}
+};
 
-function addBook(book) {
+const addBook = (book) => {
   if (bookTitle.value !== '' && bookAuthor.value !== '') {
     const id = Math.random().toString(36).slice(2);
     book = new Books(bookTitle.value, bookAuthor.value, id);
@@ -23,6 +23,6 @@ function addBook(book) {
   } else {
     errMsg();
   }
-}
+};
 
 export { addBook, removeOnClicked };

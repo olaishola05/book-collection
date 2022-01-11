@@ -1,4 +1,4 @@
-export default function renderBooks() {
+const renderBooks = () => {
   const bookContainer = document.querySelector('#book-container');
   const books = JSON.parse(localStorage.getItem('books'));
   let render = '';
@@ -16,4 +16,6 @@ export default function renderBooks() {
   }
 
   bookContainer.innerHTML = render;
-}
+};
+
+export default renderBooks;

@@ -1,6 +1,8 @@
-import { DateTime } from '../node_modules/luxon/build/es6/luxon.js';
+import { DateTime } from '../luxon.js';
 
-export default function currentDate() {
+const currentDate = () => {
   const now = DateTime.now();
   return now.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
-}
+};
+
+export default currentDate;

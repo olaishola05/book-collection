@@ -6,14 +6,14 @@ const bookLists = document.querySelector('.books');
 const addNewBook = document.querySelector('.create');
 const contact = document.querySelector('.contact');
 
-function displayBooks() {
+const displayBooks = () => {
   bookContainer.style.display = 'block';
   formContainer.style.display = 'none';
   contactContainer.style.display = 'none';
   bookLists.classList.toggle('blue');
   addNewBook.classList.remove('blue');
   contact.classList.remove('blue');
-}
+};
 
 const showAddBook = () => {
   formContainer.style.display = 'block';

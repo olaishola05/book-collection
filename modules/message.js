@@ -1,11 +1,11 @@
-function showMsg(msg) {
+const showMsg = (msg) => {
   msg = document.querySelector('.success-message');
   msg.style.visibility = 'visible';
   msg.textContent = 'Your book added successfully!';
   setTimeout(() => {
     msg.textContent = '';
   }, 3000);
-}
+};
 
 const errMsg = (error) => {
   error = document.querySelector('.error');
