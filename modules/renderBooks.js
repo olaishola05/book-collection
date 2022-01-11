@@ -6,8 +6,8 @@ export default function renderBooks() {
     render += `<div class="books">
         <div class="book-item">
           <div class="book">
-            <span>${books[book].title}</span> by
-            <span>${books[book].author}</span>
+            <span> <q>${books[book].title}</q></span> by
+            <span><b>${books[book].author}</b></span>
           </div>
           <button type="button" class="book-btns" id="${books[book].id}">Remove</button>
         </div>
