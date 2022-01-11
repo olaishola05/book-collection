@@ -1,4 +1,3 @@
-/* eslint-disable import/no-cycle */
 import Storage from './storage.js';
 import renderBooks from './renderBooks.js';
 

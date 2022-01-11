@@ -1,4 +1,3 @@
-/* eslint-disable import/no-cycle */
 import Books from './bookClass.js';
 import renderBooks from './renderBooks.js';
 import { showMsg, errMsg } from './message.js';
