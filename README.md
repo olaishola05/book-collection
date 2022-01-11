@@ -2,9 +2,11 @@
 
 # A book collection app
 
-![awesome book app](./public/images/class-refactor.png)
+![book lists](./public/images/booklists.png)
+![Add book](./public/images/addbook.png)
+![contact page](./public/images/contacts.png)
 
-A web application for storing books collection with functionality to add books and remove books.
+A web application for storing books collection with functionality to add books and remove books using a medium-fidelity wireframe.
 
 ## Built With
 
@@ -23,10 +25,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-clone repo: `git clone https://github.com/netman5/awesome-books.git`
+clone repo: `git clone https://github.com/netman5/book-collection`
 
 then
-`cd awesome-book`
+`cd book-collection`
 
 ### Install
 
@@ -44,15 +46,13 @@ run `npm install` to install dependencies
 
 - Location: Nigeria
 - GitHub: [@clintonjosephs](https://github.com/clintonjosephs)
-- Twitter: [@clintonmbonu_](https://twitter.com/clintonmbonu_)
+- Twitter: [@clintonmbonu\_](https://twitter.com/clintonmbonu_)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/clinton-mbonu)
-
 
 👤 **Tekle Gebreyohannes**
 
 - GitHub: [@githubhandle](https://github.com/gtekle)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/tekle-gebreyohannes-kidanemariam-7605752b)
-
 
 ## 🤝 Contributing
 
