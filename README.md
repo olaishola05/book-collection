@@ -6,7 +6,7 @@
 ![Add book](./public/images/addbook.png)
 ![contact page](./public/images/contacts.png)
 
-A web application for storing books collection with functionality to add books and remove books using a medium-fidelity wireframe.
+A web application for storing books collection, with the functionality to add, remove books and persists in LocalStorage. Built with JavaScript, Sass, HTML & CSS using a medium-fidelity wireframe design.
 
 ## Built With
 
